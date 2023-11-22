@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared  -o sht4x.cpython-36m-aarch64-linux-gnu.so CMakeFiles/sht4x.dir/sht4x_i2c_pybind11.cpp.o libmy_lib.a libmy_headers.a -flto 
