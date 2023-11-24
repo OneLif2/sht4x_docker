@@ -6,7 +6,6 @@ This project contains a Python script for reading data from the SHT4X sensor.
 # Description
 The SHT4X series humidity and temperature sensors, renowned for their high accuracy and versatility. These sensors, including models like SHT40, SHT41, and SHT45, offer superior precision and are optimized for low power consumption, making them ideal for diverse applications.
 <br>
-<br>
 
 # Part 1 : Getting Started
 
@@ -30,12 +29,12 @@ the following pins to connect your SHT4x:
  - Ensure that Python 3 is installed.
  - Navigate to the driver directory. For example:
     ```bash
-    cd ~/sht4x_docker/example_sht4x_pybind11/
+    cd ~/sht4x_docker/example_build_sht4x_library/
     ```
  - Generate the sht4x.cpython-36m-aarch64-linux-gnu.so file. This is a library that is imported in py_sht4x_read.py. Instructions on how to generate this file should be provided here.
 
     1. Open a terminal
-    2. Navigate to the driver directory. E.g. `cd ~/sht4x_docker/example_sht4x_pybind11/`
+    2. Navigate to the driver directory. E.g. `cd ~/sht4x_docker/example_build_sht4x_library/`
     3. Run the `setup_pybind11.sh` command to generate the library. 
     
     You may need to change the permissions by running the command:
@@ -51,8 +50,7 @@ the following pins to connect your SHT4x:
     ./cmake.sh
     ```
 
-    Once the setup scripts are executed, the generated library file `sht4x.cpython-36m-aarch64-linux-gnu.so` will be located in `sht4x_docker/example_sht4x_pybind11/build/`.
-<br>
+    Once the setup scripts are executed, the generated library file `sht4x.cpython-36m-aarch64-linux-gnu.so` will be located in `sht4x_docker/example_build_sht4x_library/build/`.
 <br>
 
 # Part 2 : Running in Docker
@@ -106,7 +104,7 @@ This project utilizes Docker to ensure a consistent environment for running the 
 ### Prometheus
 The script integrates with Prometheus to facilitate the monitoring of sensor data. It exposes temperature and humidity metrics that Prometheus can scrape. This integration allows for effective data visualization and monitoring, leveraging Prometheus's powerful data processing and alerting capabilities.
 
-### Grafana Overview
+### Grafana Dashboards
 Grafana is a powerful open-source analytics and monitoring solution. It allows users to create, explore, and share dashboards that display real-time data from various sources, such as Prometheus, in visually compelling and interactive formats. It's widely used for time-series data visualization in diverse environments.
 
 ### Explain build_and_run.sh Script
