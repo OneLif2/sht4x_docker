@@ -54,7 +54,7 @@ the following pins to connect your SHT4x:
     Once the setup scripts are executed, the generated library file `sht4x.cpython-36m-aarch64-linux-gnu.so` will be located in `sht4x_docker/example_sht4x_pybind11/build/`.
 <br>
 <br>
-<br>
+
 # Part 2 : Running in Docker
 
 ### 2.1 Setup Prometheus and Grafana
