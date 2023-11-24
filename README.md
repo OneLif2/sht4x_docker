@@ -137,5 +137,3 @@ Grafana is a powerful open-source analytics and monitoring solution. It allows u
 ## License
 
 This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for the full license text. The Apache License 2.0 is a permissive open-source license that allows you to freely use, modify, distribute, and sell your software, provided that you include the required notices and do not use the trademarked names in the names of derived products without permission.
-
-qq
