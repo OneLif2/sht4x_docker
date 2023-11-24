@@ -88,6 +88,8 @@ Then follow the shell scripts in folder `_install_db` to install Prometheus and 
 
 ![](reference/result.png)  
 
+![](reference/result2.jpeg)  
+
 ## Acknowledgments
 
 - This project uses libraries from [pybind11](https://github.com/pybind/pybind11) and [Sensirion Raspberry Pi I2C SHT4x](https://github.com/Sensirion/raspberry-pi-i2c-sht4x).
