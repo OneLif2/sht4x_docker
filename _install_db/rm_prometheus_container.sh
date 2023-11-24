@@ -1,0 +1,1 @@
+docker rm prometheus && docker image rm prom/prometheus:latest
