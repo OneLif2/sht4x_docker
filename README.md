@@ -79,7 +79,6 @@ Then follow the shell scripts in folder `_install_db` to install Prometheus and 
 5. **Explore and Share**: Interact with real-time data, adjust settings, and share dashboards as needed.
 
 <br>
-<br>
 
 # Part 3 : Results
 
