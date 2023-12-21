@@ -53,7 +53,7 @@ Rs = 0b00000001  # Register select bit
 
 
 class I2CDevice:
-    def __init__(self, addr, port=1):
+    def __init__(self, addr, port=8):
         self.addr = addr
         self.bus = smbus.SMBus(port)
 

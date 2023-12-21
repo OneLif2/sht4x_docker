@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/pybind11
+# Install script for directory: /home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/pybind11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

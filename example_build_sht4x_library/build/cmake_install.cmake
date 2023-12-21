@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11
+# Install script for directory: /home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,9 +38,8 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/build/pybind11/cmake_install.cmake")
-
+  # Include the install script for the subdirectory.
+  include("/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/build/pybind11/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -51,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
