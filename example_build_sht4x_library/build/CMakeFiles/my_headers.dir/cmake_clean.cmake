@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "libmy_headers.pdb"
   "libmy_headers.a"
+  "libmy_headers.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

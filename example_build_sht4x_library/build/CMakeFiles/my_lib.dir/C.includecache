@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_common.c
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_common.c
 sensirion_common.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_common.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_common.h
 sensirion_config.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_config.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_config.h
 
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_common.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_common.h
 sensirion_config.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_config.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_config.h
 
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_config.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_config.h
 stdlib.h
 -
 stdint.h
@@ -24,27 +24,27 @@ stdint.h
 stdbool.h
 -
 
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_i2c.c
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_i2c.c
 sensirion_i2c.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_i2c.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_i2c.h
 sensirion_common.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_common.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_common.h
 sensirion_config.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_config.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_config.h
 sensirion_i2c_hal.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_i2c_hal.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_i2c_hal.h
 
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_i2c.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_i2c.h
 sensirion_config.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_config.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_config.h
 
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_i2c_hal.c
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_i2c_hal.c
 sensirion_i2c_hal.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_i2c_hal.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_i2c_hal.h
 sensirion_common.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_common.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_common.h
 sensirion_config.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_config.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_config.h
 fcntl.h
 -
 stdio.h
@@ -54,21 +54,21 @@ sys/ioctl.h
 unistd.h
 -
 
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_i2c_hal.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_i2c_hal.h
 sensirion_config.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_config.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_config.h
 
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sht4x_i2c.c
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sht4x_i2c.c
 sht4x_i2c.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sht4x_i2c.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sht4x_i2c.h
 sensirion_common.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_common.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_common.h
 sensirion_i2c.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_i2c.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_i2c.h
 sensirion_i2c_hal.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_i2c_hal.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_i2c_hal.h
 
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sht4x_i2c.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sht4x_i2c.h
 sensirion_config.h
-/home/pi/Documents/_github/sht4x_docker/example_sht4x_pybind11/raspberry-pi-i2c-sht4x/sensirion_config.h
+/home/pi/Documents/_github/sht4x_docker/example_build_sht4x_library/raspberry-pi-i2c-sht4x/sensirion_config.h
 

@@ -45,7 +45,8 @@
  * Linux specific configuration. Adjust the following define to the device path
  * of your sensor.
  */
-#define I2C_DEVICE_PATH "/dev/i2c-1"
+//#define I2C_DEVICE_PATH "/dev/i2c-8" # for Jetson Xavier NX
+#define I2C_DEVICE_PATH "/dev/i2c-1" # for Raspberry Pi or Jetson Nano
 
 /**
  * The following define was taken from i2c-dev.h. Alternatively the header file

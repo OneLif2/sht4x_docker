@@ -1,4 +1,13 @@
-from build.sht4x import *
+import os
+import sys
+# Append parent directory to import path, import file from parent directory
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))+"/build")
+
+#print(__file__) #./file.py
+#print(os.path.abspath(__file__)) #./file.py
+print(os.path.dirname(os.path.abspath(__file__))) #./
+
+from sht4x import *
 import time
 
 import i2c_driver as i2c_driver  # sudo apt install python-smbus
