@@ -53,6 +53,25 @@ the following pins to connect your SHT4x:
     Once the setup scripts are executed, the generated library file `sht4x.cpython-36m-aarch64-linux-gnu.so` will be located in `sht4x_docker/example_build_sht4x_library/build/`.
 <br>
 
+
+### To Enable on Jetson Xavier NX
+
+Since Jetson Xavier NX uses `/dev/i2c-8` for I2C communication, the I2C bus number needs to be modified in the following two files.
+
+Modify the script in `sensirion_i2c_hal.c`. Change the `I2C_DEVICE_PATH` from `"/dev/i2c-1"` to `"/dev/i2c-8"` for Jetson Xavier NX.
+
+```c++
+#define I2C_DEVICE_PATH "/dev/i2c-8" // for Jetson Xavier NX
+#define I2C_DEVICE_PATH "/dev/i2c-1" // for Raspberry Pi or Jetson Nano
+```
+
+Next, modify the script in i2c_driver.py for the 16x2 LCD display.
+
+```python
+def __init__(self, addr, port=8): # "port=1" for RPi or Jetson Nano; "port=8" for Jetson Xavier NX
+```
+<br>
+
 # Part 2 : Running in Docker
 
 ### 2.1 Setup Prometheus and Grafana
