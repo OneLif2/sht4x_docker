@@ -1,4 +1,4 @@
-import smbus as smbus#sudo apt-get install python3-smbus
+import smbus as smbus #sudo apt-get install python3-smbus
 import time
 
 
@@ -53,7 +53,7 @@ Rs = 0b00000001  # Register select bit
 
 
 class I2CDevice:
-    def __init__(self, addr, port=8):
+    def __init__(self, addr, port=1): # "port=1", for RPi or jetson nano; "port=8" for Jetson nano and port=8 for Jetson Xavier NX
         self.addr = addr
         self.bus = smbus.SMBus(port)
 

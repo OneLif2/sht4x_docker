@@ -1,7 +1,18 @@
 try:
-    import smbus2 as smbus #pip3 install smbus2
-except:
-    import smbus as smbus 
+    import smbus2 as smbus
+    smbus_module = "smbus2"
+except ImportError:
+    try:
+        import smbus
+        smbus_module = "smbus"
+    except ImportError:
+        smbus_module = None
+
+if smbus_module:
+    print(f"{smbus_module} module has been imported.")
+else:
+    print("Neither smbus nor smbus2 modules were found.")
+
 import time
 
 
@@ -56,7 +67,7 @@ Rs = 0b00000001  # Register select bit
 
 
 class I2CDevice:
-    def __init__(self, addr, port=1):
+    def __init__(self, addr, port=8): # "port=1", for RPi or jetson nano; "port=8" for Jetson nano and port=8 for Jetson Xavier NX
         self.addr = addr
         self.bus = smbus.SMBus(port)
 
@@ -178,4 +189,3 @@ class LCD:
 
         for char in string:
             self.lcd_write(ord(char), Rs)
-            
