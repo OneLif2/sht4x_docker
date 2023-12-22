@@ -1,13 +1,17 @@
 cd $PWD
 echo -e "check path = $(pwd)"
 
-mkdir grafana
+if [ ! -d "grafana" ]; then
+  mkdir grafana
+fi
 cd grafana
 
-mkdir grafana-vol
+if [ ! -d "grafana-vol" ]; then
+  mkdir grafana-vol
+fi
 
 docker run -d \
--p 80:3000 \ 
+-p 80:3000 \
 --user=1000:1000 \
 --name=grafana \
 --restart=unless-stopped \
